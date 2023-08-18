@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Formulaire RH de la Présidence de la République!{% endblock %}</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="img/x-icon"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width:1000px)" href="css/mobile.css" />
+        
+        {% block stylesheets %}
+        {% endblock %}
+
+        {% block javascripts %}
+        {% endblock %}
+    </head>
+    <body class="lang-fr" style="width: 100%;min-height: 100vh; display: flex;justify-content: center;align-items: center;background-image: url('img/pn_bg.png');background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;">
+        {% block body %}{% endblock %}
+    </body>
+</html>

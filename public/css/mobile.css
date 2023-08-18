@@ -1,0 +1,14 @@
+	
+.tb_mobile_m{
+display:block;
+}	
+.tb_pc{
+display:none;
+}
+
+.important{
+ align:center;
+ width: 70%;
+ align-items: center;
+ justify-content: center;
+}
